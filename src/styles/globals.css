@@ -2,6 +2,10 @@
   --main-bg-color: hsl(0, 0%, 14%);
 }
 
+::-webkit-scrollbar{
+  display: none;
+}
+
 *,
 *::before,
 *::after {
@@ -65,8 +69,8 @@ button:hover {
   width: 30%;
   background: purple;
   padding-bottom: 20%;
-  margin: 1.66%;
-  border-radius: 0.3125rem;
+  margin: 1.25rem;
+  border-radius: 1.25rem;
   transition: 0.3s;
 }
 
